@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/about1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/about1" />
+    
+    <TextView
+        android:id="@+id/about2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blank" />
+    
+    <TextView
+        android:id="@+id/upToDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/upToDate" />
+    
+    <TextView
+        android:id="@+id/about2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blank" />
+
+    <TextView
+        android:id="@+id/about2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/about2" />
+    
+    <TextView
+        android:id="@+id/about2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blank" />
+    
+    <TextView
+        android:id="@+id/about3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/about3" />
+
+    <TextView
+        android:id="@+id/about2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blank" />
+    <Button
+        android:id="@+id/toFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/facebook"
+        android:onClick="@string/faceClickHandler" />
+    
+
+</LinearLayout>

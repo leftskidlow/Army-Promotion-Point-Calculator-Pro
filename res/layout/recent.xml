@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/newScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/about1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <TextView
+        android:id="@+id/mosText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/selMOS"
+        style="@style/subBadgesCat" />
+    
+    <Spinner
+        android:id="@+id/mosSelectSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/mosSpinHint" />
+
+    <TextView
+        android:id="@+id/about2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <EditText
+        android:id="@+id/userPoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/usersPointsHint" />
+    
+    <TextView
+        android:id="@+id/about2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <TextView
+        android:id="@+id/rankSel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selPromo"
+        style="@style/subBadgesCat" />
+    
+    <TableLayout 
+        android:id="@+id/rankSelection"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <RadioGroup 
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <RadioButton 
+                    android:id="@+id/toSarge"
+                    android:hint="@string/toSGT"
+                    style="@style/radioEntries" />
+                <RadioButton 
+                    android:id="@+id/toStaffSarge"
+                    android:hint="@string/toSSG"
+                    style="@style/radioEntries" />
+            </RadioGroup>
+        </TableRow>
+     </TableLayout>
+     
+    <TextView
+        android:id="@+id/rankSel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="(when the graph loads, scroll slightly right for current month)"
+        style="@style/subBadgesCat" />
+
+    <Button
+        android:id="@+id/viewGraphButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/viewGraph"
+        android:onClick="@string/graphClickHandler" />
+    
+
+</LinearLayout>
+</ScrollView>

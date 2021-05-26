@@ -1,0 +1,819 @@
+  
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/newScrollView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">"
+
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/e5title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/e5_title" />
+    
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <TextView
+        android:id="@+id/e5subtitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/e5_subtitle" />
+    
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <TextView
+        android:id="@+id/e5milTrainTitle"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/e5milTraining"
+        style="@style/pointTitles" />
+    
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <EditText
+        android:id="@+id/e5apftScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/apftHint" />
+
+    <EditText
+        android:id="@+id/e5deployMonths"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/deployHint" />
+    <Spinner
+        android:id="@+id/e5weapCardSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:prompt="@string/weapQualCard" />
+    <EditText
+        android:id="@+id/e5weapScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/WeapQualHint" />
+   
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <TextView
+        android:id="@+id/e5milAwardsTitle"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/e5milAwards"
+        style="@style/pointTitles" />
+        
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <TextView
+        android:id="@+id/milAwardSubTitle"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/awardsSubTitle"
+        style="@style/pointSubTitles" />
+
+    <EditText
+        android:id="@+id/e5soldMedalPlus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/soldMedalPlus" />
+    <EditText
+        android:id="@+id/e5bronzeStarV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/bronzeStarV" />
+    <EditText
+        android:id="@+id/e5bronzeStar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/bronzeStar" />
+    <EditText
+        android:id="@+id/e5purpHeart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/purpHeart" />
+    <EditText
+        android:id="@+id/e5airMedalV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/airMedalV" />
+    <EditText
+        android:id="@+id/e5airMedal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/airMedal" />
+    <EditText
+        android:id="@+id/e5DMSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/DMSM" />
+    <EditText
+        android:id="@+id/e5MSM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/MSM" />
+    <EditText
+        android:id="@+id/e5ARCOMV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/ARCOMV" />
+    <EditText
+        android:id="@+id/e5ARCOM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/ARCOM" />
+    <EditText
+        android:id="@+id/e5JSCOM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/JSCOM" />
+    <EditText
+        android:id="@+id/e5AAM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/AAM" />
+    <EditText
+        android:id="@+id/e5JSAAM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/JSAAM" />
+    <EditText
+        android:id="@+id/e5RCAAM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/RCAAM" />
+    <EditText
+        android:id="@+id/e5AFRM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/AFRM" />
+    <EditText
+        android:id="@+id/e5GCM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/GCM" />
+    <EditText
+        android:id="@+id/e5volunteer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/volunteer" />
+    <EditText
+        android:id="@+id/e5COA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/COA" />
+    <TextView
+        android:id="@+id/milAwardSubTitle"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/badgesSubTitle"
+        style="@style/pointSubTitles" />
+    
+    <TableLayout 
+        android:id="@+id/badgesTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5CIB"
+                android:hint="@string/CIB"
+                style="@style/checkEntries" />
+            <CheckBox
+                android:id="@+id/e5CMB"
+                android:hint="@string/CMB"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5EIB"
+                android:hint="@string/EIB"
+                style="@style/checkEntries" />
+            <CheckBox
+                android:id="@+id/e5CAB"
+                android:hint="@string/CAB"
+                style="@style/checkEntries" />
+        </TableRow>
+    </TableLayout>
+        
+    <TableLayout 
+        android:id="@+id/badgesTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5EFMB"
+                android:hint="@string/EFMB"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5presService"
+                android:hint="@string/presService"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5vpService"
+                android:hint="@string/vpService"
+                style="@style/checkEntries" />
+        </TableRow>
+        
+    </TableLayout>
+    <TableLayout 
+        android:id="@+id/badgesTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left" >
+        
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5drill"
+                android:hint="@string/drill"
+                style="@style/checkEntries" />
+            <CheckBox
+                android:id="@+id/e5rigger"
+                android:hint="@string/rigger"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5diver"
+                android:hint="@string/diver"
+                style="@style/checkEntries" />
+            <CheckBox
+                android:id="@+id/e5pathfinder"
+                android:hint="@string/pathfinder"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5airCrew"
+                android:hint="@string/airCrew"
+                style="@style/checkEntries" />
+            <CheckBox
+                android:id="@+id/e5airAss"
+                android:hint="@string/airAss"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5space"
+                android:hint="@string/space"
+                style="@style/checkEntries" />
+            <CheckBox
+                android:id="@+id/e5tombGuard"
+                android:hint="@string/tombGuard"
+                style="@style/checkEntries" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout 
+        android:id="@+id/badgesTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5SecDef"
+                android:hint="@string/SecDef"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5JStaff"
+                android:hint="@string/JStaff"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5AStaff"
+                android:hint="@string/AStaff"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5drivers"
+                android:hint="@string/drivers"
+                style="@style/checkEntries" />
+        </TableRow>
+    </TableLayout>
+    <TextView 
+        android:text="@string/parachutists"
+        style="@style/subBadgesCat" />
+    <TableLayout 
+        android:id="@+id/parachutistTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <RadioGroup 
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <RadioButton 
+                    android:id="@+id/e5paraBasic"
+                    android:hint="@string/basic"
+                    style="@style/radioEntries" />
+                <RadioButton 
+                    android:id="@+id/e5paraSenior"
+                    android:hint="@string/senior"
+                    style="@style/radioEntries" />
+                <RadioButton 
+                    android:id="@+id/e5paraMaster"
+                    android:hint="@string/master"
+                    style="@style/radioEntries" />
+            </RadioGroup>
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5airAdvan"
+                android:hint="@string/airAdvan"
+                style="@style/checkEntries" />
+        </TableRow>
+     </TableLayout>
+     <TextView 
+        android:text="@string/recruit"
+        style="@style/subBadgesCat" />
+    <TableLayout 
+        android:id="@+id/e5recruitTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <RadioGroup 
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <RadioButton 
+                    android:id="@+id/e5recruitBasic"
+                    android:hint="@string/basic"
+                    style="@style/radioEntries" />
+                <RadioButton 
+                    android:id="@+id/e5recruitGold"
+                    android:hint="@string/gold"
+                    style="@style/radioEntries" />
+                <RadioButton 
+                    android:id="@+id/e5recruitMaster"
+                    android:hint="@string/master"
+                    style="@style/radioEntries" />
+            </RadioGroup>
+        </TableRow>
+     </TableLayout>
+     <TextView 
+        android:text="@string/EOD"
+        style="@style/subBadgesCat" />
+    <TableLayout 
+        android:id="@+id/eodTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <RadioGroup 
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <RadioButton 
+                    android:id="@+id/e5eodBasic"
+                    android:hint="@string/basic"
+                    style="@style/radioEntries" />
+                <RadioButton 
+                    android:id="@+id/e5eodSenior"
+                    android:hint="@string/senior"
+                    style="@style/radioEntries" />
+                <RadioButton 
+                    android:id="@+id/e5eodMaster"
+                    android:hint="@string/master"
+                    style="@style/radioEntries" />
+            </RadioGroup>
+        </TableRow>
+     </TableLayout>
+     
+     <TextView
+        android:id="@+id/blank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <TextView
+        android:id="@+id/e5milEducationTitle"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/e5milEd"
+        style="@style/pointTitles" />
+        
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <TextView
+        android:id="@+id/milEdSubTitle"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ncoesSubTitle"
+        style="@style/pointSubTitles" />
+    
+    <TableLayout 
+        android:id="@+id/ncoesTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5wlcGrad"
+                android:hint="@string/wlcGrad"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5commList"
+                android:hint="@string/commList"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5distGrad"
+                android:hint="@string/distGrad"
+                style="@style/checkEntries" />
+        </TableRow>
+    </TableLayout>
+    
+    <TextView
+        android:id="@+id/milEdSubTitle"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/residentSubTitle"
+        style="@style/pointSubTitles" />
+    
+    <TableLayout 
+        android:id="@+id/residentCoursesTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5ranger"
+                android:hint="@string/ranger"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5specForces"
+                android:hint="@string/specForces"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5sapper"
+                android:hint="@string/sapper"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5AMMSC"
+                android:hint="@string/AMMSC"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5PLLC"
+                android:hint="@string/PLLC"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5MPOP"
+                android:hint="@string/MPOP"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5GenOp"
+                android:hint="@string/GenOp"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5fuelHandle"
+                android:hint="@string/fuelHandle"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5basicWeld"
+                android:hint="@string/basicWeld"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5forkOp"
+                android:hint="@string/forkOp"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5busDrive"
+                android:hint="@string/busDrive"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5unitSupply"
+                android:hint="@string/unitSupply"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5unitSupplyOps"
+                android:hint="@string/unitSupplyOps"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5unitArmor"
+                android:hint="@string/unitArmor"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5CBRNDef"
+                android:hint="@string/CBRNDef"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5unitPostal"
+                android:hint="@string/unitPostal"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5diskOp"
+                android:hint="@string/diskOp"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5wordProcess"
+                android:hint="@string/wordProcess"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5dataManage"
+                android:hint="@string/dataManage"
+                style="@style/checkEntries" />
+        </TableRow>
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5unitLog"
+                android:hint="@string/unitLog"
+                style="@style/checkEntries" />
+        </TableRow>
+    </TableLayout>
+    
+    <EditText
+        android:id="@+id/e5otherResHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/otherResHours" />
+    
+    <TextView
+        android:id="@+id/milEdSubTitle"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/accpSubTitle"
+        style="@style/pointSubTitles" />
+    
+    <EditText
+        android:id="@+id/e5accpHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/accpHours" />
+    
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <TextView
+        android:id="@+id/e5civEducationTitle"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/e5civEd"
+        style="@style/pointTitles" />
+        
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <EditText
+        android:id="@+id/e5semHours"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/semHours" />
+    
+    <EditText
+        android:id="@+id/e5techCerts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/techCerts" />
+    
+    <EditText
+        android:id="@+id/e5dlpt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/dlpt" />
+    
+    <TableLayout 
+        android:id="@+id/civEdTable"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <CheckBox
+                android:id="@+id/e5degCompletion"
+                android:hint="@string/degCompletion"
+                style="@style/checkEntries" />
+        </TableRow>
+    </TableLayout>
+    
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <TextView
+        android:id="@+id/doubleCheck"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/doubleCheck"
+        style="@style/pointTitles" />
+    
+    <TextView
+        android:id="@+id/blank"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/blank" />
+    
+    <Button 
+        android:id="@+id/calcButton"
+        android:text="@string/calcButton"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:onClick="@string/calcClickHandler" />
+        
+</LinearLayout>
+</ScrollView>

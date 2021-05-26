@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="e5_title">Welcome to the last promotion point calculator you will ever need. (It just so happens to be the ONLY app for the Army\'s new promotion point system.)</string>
+    <string name="e5_subtitle">Add the appropriate information into the options below.</string>
+    <string name="app_name">Army Promotion Point Calculator</string>
+    <string name="e6_title">Think you are ready to join the ranks of the coveted Staff Sergeant? Enter your data below to see how you measure up.</string>
+    <string name="comingSoon">This feature is coming soon! Expect it! Seriously... I know it\'s said this for a long time but I\'m back from deployment now...</string>
+    <string name="upToDate">This calculator is as current as it gets, including updates to the system effect 27 Oct 2013. If you feel I am incorrect, please email me.</string>
+    <string name="apft_title">Welcome to the APFT Calculator</string>
+    <string name="points1">From this page you will be able to view historical data on your MOS\'s promotion points. This will give you a better idea of which months points tend to lower, what you need, and where you should be to get promoted.</string>
+    <string name="points2">Because of the constant updating that is required, I am going to make this available in the "Pro" version.</string>
+    <string name="points3">Please leave me some feedback.</string>
+    <string name="about1">This calculator will provide you with the most accurate evaluation of your promotion points and give you an honest idea of where you stand on being promoted.</string>
+    <string name="about2">Whether you just happened to stumble upon this app or you are using it to further your career, please take a few minutes and give us a review or share it with a friend.</string>
+    <string name="about3">This app was created by SGT Tim Miller of 249th Prime Power BN. If you have any questions feel free to email me at gunners.sales@live.com. You can also reach me on Facebook.</string>
+    <string name="blank">  </string>
+    <string name="facebook">Visit My Facebook</string>
+    <string name="faceClickHandler">faceClickHandler</string>
+    
+    <string name="calcButton">Calculate My Points</string>
+    <string name="calcClickHandler">calcClickHandler</string>
+    <string name="doubleCheck">Double Check Your Entries</string>
+    
+    <string name="e5milTraining">Military Training (340 Pts Max)</string>
+    <string name="e6milTraining">Military Training (255 Pts Max)</string>
+    <string name="apftHint">Enter APFT Score</string>
+    <string name="deployHint">Enter Months Deployed</string>
+    <string name="WeapQualHint">Enter Weapon Score</string>
+    <string name="weapQualCard">Select Weapons Cards</string>
+    <string-array name="weapQualCards">
+        <item>DA Form 3595-R or 5790-R</item>
+        <item>DA Form 85-R w/ M249 MG</item>
+        <item>DA Form 85-R w/ M240B/M60</item>
+        <item>DA Form 88</item>
+        <item>DA Form 5704 or 5704-R</item>
+        <item>DA Form 7304-R</item>
+        <item>CID Form</item>
+        <item>FLVA Form 19-10</item>
+    </string-array>
+    
+    <string name="e5milAwards">Awards/Decorations (125 Pts Max)</string>
+    <string name="e6milAwards">Awards/Decorations (165 Pts Max)</string>
+    <string name="awardsSubTitle">Awards and Medals</string>
+    <string name="badgesSubTitle">Badges</string>
+    <string name="soldMedalPlus">Soldier\'s Medal or Higher</string>
+    <string name="bronzeStarV">Bronze Star w/ "V" Device</string>
+    <string name="bronzeStar">Bronze Star</string>
+    <string name="purpHeart">Purple Heart</string>
+    <string name="DMSM">Defense MSM</string>
+    <string name="MSM">Meritorious Service Medal (MSM)</string>
+    <string name="airMedalV">Air Medal with "V" Device</string>
+    <string name="airMedal">Air Medal</string>
+    <string name="ARCOMV">ARCOM with "V" Device</string>
+    <string name="ARCOM">ARCOM</string>
+    <string name="JSCOM">Joint Service Commendation</string>
+    <string name="AAM">Army Achievement Medal</string>
+    <string name="JSAAM">Joint Service Achievement Medal</string>
+    <string name="RCAAM">Res. Comp. Achievement Medal</string>
+    <string name="AFRM">Armed Forces Reserved Medal</string>
+    <string name="GCM">Good Conduct Medal</string>
+    <string name="volunteer">Outstanding Volunteer</string>
+    <string name="COA">Cert. of Achievement</string>
+    <string name="CIB">Combat Inf.</string>
+    <string name="CMB">Combat Med.</string>
+    <string name="EIB">Expert Inf.</string>
+    <string name="CAB">Combat Act.</string>
+    <string name="EFMB">Expert Field Medical</string>
+    <string name="presService">Presidential Service</string>
+    <string name="vpService">Vice President Service</string>
+    <string name="drill">Drill Sgt</string>
+    <string name="rigger">Rigger</string>
+    <string name="diver">Diver</string>
+    <string name="pathfinder">Pathfinder</string>
+    <string name="airAss">Air Assault</string>
+    <string name="airCrew">Air Crew</string>
+    <string name="SecDef">Sect. of Def. Service</string>
+    <string name="JStaff">Joint Chief of Staff ID</string>
+    <string name="AStaff">Army Staff Identification</string>
+    <string name="space">Space</string>
+    <string name="tombGuard">Tomb Guard</string>
+    <string name="drivers">Driver and Mechanic</string>
+    <string name="parachutists">Parachutist\'s Badges</string>
+    <string name="basic">Basic</string>
+    <string name="senior">Senior</string>
+    <string name="master">Master</string>
+    <string name="gold">Gold</string>
+    <string name="airAdvan">Airborne Advantage</string>
+    <string name="recruit">Recruiter\'s Badges</string>
+    <string name="EOD">Explos. Ordinance Disposal Badge</string>
+    
+    <string name="e5milEd">Military Education (260 Pts Max)</string>
+    <string name="e6milEd">Military Education (280 Pts Max)</string>
+    <string name="residentSubTitle">Resident Courses</string>
+    <string name="ncoesSubTitle">NCOES</string>
+    <string name="accpSubTitle">ACCP and eLearning</string>
+    <string name="alcGrad">Graduated ALC</string>
+    <string name="wlcGrad">Graduated WLC</string>
+    <string name="commList">Commandant\'s List</string>
+    <string name="distGrad">Distinguished Honor/Leadership Award</string>
+    <string name="ranger">Ranger School</string>
+    <string name="specForces">SF Qualification</string>
+    <string name="sapper">Sapper Qualification</string>
+    <string name="AMMSC">Maint. Manag. Sys. Clerk</string>
+    <string name="PLLC">Prescribed Load List Clerk</string>
+    <string name="MPOP">Motor Pool Ops./Management</string>
+    <string name="GenOp">Generator Operator</string>
+    <string name="fuelHandle">Fuel Handlers</string>
+    <string name="basicWeld">Basic Welding</string>
+    <string name="forkOp">Forklift Operator</string>
+    <string name="busDrive">Bus Driver</string>
+    <string name="unitSupply">Unit Supply Clerk</string>
+    <string name="unitSupplyOps">Unit Supply Ops./Management</string>
+    <string name="unitArmor">Unit Armorer</string>
+    <string name="CBRNDef">CBRN Defense</string>
+    <string name="unitPostal">Unit Postal Clerk</string>
+    <string name="diskOp">Disk Operating Systems</string>
+    <string name="wordProcess">Word Processing</string>
+    <string name="dataManage">Database Management</string>
+    <string name="unitLog">Unit Logistics Systems</string>
+    <string name="accpHours">Total Hours</string>
+    <string name="otherResHours">Other Resident Course Hours</string>
+    
+    <string name="e5civEd">Civilian Education (75 Pts Max)</string>
+    <string name="e6civEd">Civilian Education (100 Pts Max)</string>
+    <string name="semHours">Semester Hours</string>
+    <string name="techCerts">Technical Certifications</string>
+    <string name="dlpt">Current Def. Language Prof. Tests</string>
+    <string name="degCompletion">Degree Completion</string>
+    
+    <string name="selMOS">What\'s your MOS?</string>
+    <string name="selPromo">What are you trying to get promoted too?</string>
+    <string name="selZone">Which zone are you?</string>
+    <string name="toSGT">To Sergeant</string>
+    <string name="toSSG">To Staff Sergeant</string>
+    <string name="primary">Primary Zone</string>
+    <string name="secondary">Secondary Zone</string>
+    <string name="mosSpinHint">Select MOS</string>
+    <string name="viewGraph">View Historical Data</string>
+    <string name="usersPointsHint">Your Promotion Points</string>
+    <string name="graphClickHandler">graphClickHandler</string>
+    <string-array name="mosSpinner">
+        <item>09L</item>
+        <item>11B</item>
+        <item>11C</item>
+        <item>12B</item>
+        <item>12C</item>
+        <item>12D</item>
+        <item>12H</item>
+        <item>12K</item>
+        <item>12M</item>
+        <item>12N</item>
+        <item>12P</item>
+        <item>12R</item>
+        <item>12T</item>
+        <item>12V</item>
+        <item>12W</item>
+        <item>12Y</item>
+        <item>13B</item>
+        <item>13D</item>
+        <item>13F</item>
+        <item>13M</item>
+        <item>13P</item>
+        <item>13R</item>
+        <item>13T</item>
+        <item>14E</item>
+        <item>14G</item>
+        <item>14H</item>
+        <item>14S</item>
+        <item>14T</item>
+        <item>15B</item>
+        <item>15D</item>
+        <item>15E</item>
+        <item>15F</item>
+        <item>15G</item>
+        <item>15H</item>
+        <item>15J</item>
+        <item>15N</item>
+        <item>15P</item>
+        <item>15Q</item>
+        <item>15R</item>
+        <item>15S</item>
+        <item>15T</item>
+        <item>15U</item>
+        <item>15W</item>
+        <item>15Y</item>
+        <item>18B</item>
+        <item>18C</item>
+        <item>18D</item>
+        <item>18E</item>
+        <item>19D</item>
+        <item>19K</item>
+        <item>25B</item>
+        <item>25C</item>
+        <item>25E</item>
+        <item>25F</item>
+        <item>25L</item>
+        <item>25M</item>
+        <item>25N</item>
+        <item>25P</item>
+        <item>25Q</item>
+        <item>25R</item>
+        <item>25S</item>
+        <item>25U</item>
+        <item>25V</item>
+        <item>27D</item>
+        <item>29E</item>
+        <item>31B</item>
+        <item>31D</item>
+        <item>31E</item>
+        <item>35F</item>
+        <item>35G</item>
+        <item>35L</item>
+        <item>35M</item>
+        <item>35N</item>
+        <item>35P</item>
+        <item>35PAD</item>
+        <item>35PAE</item>
+        <item>35PAN</item>
+        <item>35PAP</item>
+        <item>35PAZ</item>
+        <item>35PDG</item>
+        <item>35PFR</item>
+        <item>35PKP</item>
+        <item>35PPF</item>
+        <item>35PPU</item>
+        <item>35PPV</item>
+        <item>35PPW</item>
+        <item>35S</item>
+        <item>35T</item>
+        <item>36B</item>
+        <item>37F</item>
+        <item>38B</item>
+        <item>42A</item>
+        <item>42R</item>
+        <item>46Q</item>
+        <item>46R</item>
+        <item>51C</item>
+        <item>56M</item>
+        <item>68A</item>
+        <item>68D</item>
+        <item>68E</item>
+        <item>68G</item>
+        <item>68H</item>
+        <item>68J</item>
+        <item>68K</item>
+        <item>68M</item>
+        <item>68P</item>
+        <item>68Q</item>
+        <item>68R</item>
+        <item>68S</item>
+        <item>68T</item>
+        <item>68V</item>
+        <item>68W</item>
+        <item>68X</item>
+        <item>74D</item>
+        <item>79R</item>
+        <item>79S</item>
+        <item>88H</item>
+        <item>88K</item>
+        <item>88L</item>
+        <item>88M</item>
+        <item>88N</item>
+        <item>89A</item>
+        <item>89B</item>
+        <item>89D</item>
+        <item>91A</item>
+        <item>91B</item>
+        <item>91C</item>
+        <item>91D</item>
+        <item>91E</item>
+        <item>91F</item>
+        <item>91G</item>
+        <item>91H</item>
+        <item>91J</item>
+        <item>91K</item>
+        <item>91L</item>
+        <item>91M</item>
+        <item>91P</item>
+        <item>91S</item>
+        <item>92A</item>
+        <item>92F</item>
+        <item>92G</item>
+        <item>92L</item>
+        <item>92M</item>
+        <item>92R</item>
+        <item>92S</item>
+        <item>92W</item>
+        <item>92Y</item>
+        <item>94A</item>
+        <item>94D</item>
+        <item>94E</item>
+        <item>94F</item>
+        <item>94H</item>
+        <item>94M</item>
+        <item>94P</item>
+        <item>94R</item>
+        <item>94S</item>
+        <item>94T</item>
+        <item>94Y</item>
+    </string-array>
+    
+        
+    <color name="white">#fff</color>
+    <color name="orange">#ff6</color>
+    
+    <style name="pointTitles">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">#ffcc33</item>
+        <item name="android:background">#333333</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="pointSubTitles">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="checkEntries">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center|left</item>
+    </style>
+    <style name="subBadgesCat">
+        <item name="android:textColor">@color/orange</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:minLines">1</item>
+    </style>
+    <style name="radioEntries">
+        <item name="android:textColorHint">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>
